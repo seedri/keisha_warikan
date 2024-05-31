@@ -16,4 +16,8 @@ class totalNotifier extends _$totalNotifier {
     if (state % 2 == 1) state++;
     state = state ~/ 2;
   }
+
+  void warikan(int attendance) {
+    state = state ~/ attendance;
+  }
 }

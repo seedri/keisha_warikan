@@ -1,26 +1,27 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'total.dart';
+part of 'attendance.dart';
 
 // **************************************************************************
 // RiverpodGenerator
 // **************************************************************************
 
-String _$totalNotifierHash() => r'3444ea38bf4512dc1e4eb73bfa73ed5649f86412';
+String _$attendanceNotifierHash() =>
+    r'186a0fa0b031475e7ed58eec44145c8b9c642ce6';
 
-/// See also [totalNotifier].
-@ProviderFor(totalNotifier)
-final totalNotifierProvider =
-    AutoDisposeNotifierProvider<totalNotifier, int>.internal(
-  totalNotifier.new,
-  name: r'totalNotifierProvider',
+/// See also [attendanceNotifier].
+@ProviderFor(attendanceNotifier)
+final attendanceNotifierProvider =
+    AutoDisposeNotifierProvider<attendanceNotifier, int>.internal(
+  attendanceNotifier.new,
+  name: r'attendanceNotifierProvider',
   debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product')
       ? null
-      : _$totalNotifierHash,
+      : _$attendanceNotifierHash,
   dependencies: null,
   allTransitiveDependencies: null,
 );
 
-typedef _$totalNotifier = AutoDisposeNotifier<int>;
+typedef _$attendanceNotifier = AutoDisposeNotifier<int>;
 // ignore_for_file: type=lint
 // ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member

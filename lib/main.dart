@@ -18,10 +18,17 @@ class MyApp extends StatelessWidget {
           colorScheme:
               ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 255, 187, 0)),
           useMaterial3: true,
+          appBarTheme: AppBarTheme(
+            backgroundColor: Color.fromARGB(255, 255, 187, 0), // AppBarの背景色を設定
+            foregroundColor: Colors.black, // AppBarの前景色を設定（アイコンやテキストの色）
+          ),
         ),
         home: Scaffold(
+            appBar: AppBar(
+              title: Text('keisha-warikan!'),
+            ),
             body: Center(
-          child: MainPage(),
-        )));
+              child: MainPage(),
+            )));
   }
 }
